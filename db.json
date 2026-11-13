@@ -1,0 +1,122 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "david villa",
+      "email": "davidvilla@gmail.com",
+      "password": "password123",
+      "userType": "consumer",
+      "platforms": []
+    },
+    {
+      "id": 2,
+      "name": "John Smith",
+      "email": "john@provider.com",
+      "phone": "+1 (555) 123-4567",
+      "address": "123 Provider Lane, NY",
+      "password": "password123",
+      "userType": "provider",
+      "platforms": [
+        "Amazon Prime",
+        "Netflix",
+        "Disney Plus"
+      ]
+    },
+    {
+      "name": "Meenakshi Subhash",
+      "email": "meenakshisubhash2006@gmail.com",
+      "address": "Mundakkal (h) manakulangara p o kodakara",
+      "phone": "+917736784163",
+      "password": "12345678",
+      "dob": "2026-11-11",
+      "userType": "consumer",
+      "platforms": [],
+      "id": 3
+    },
+    {
+      "name": "alexander richardson",
+      "email": "alexander.richardson@example.com",
+      "address": "123 main villas",
+      "phone": "+1(555) 456 389",
+      "password": "alexder123",
+      "dob": "1984-11-10",
+      "userType": "consumer",
+      "platforms": [],
+      "id": 4
+    },
+    {
+      "name": "malavika ",
+      "email": "malavikasubhash@gmail.com",
+      "address": "Mundakkal (h) manakulangara p o kodakara",
+      "phone": "+918714572190",
+      "password": "malavika",
+      "dob": "2010-07-15",
+      "userType": "provider",
+      "platforms": [
+        "Netflix",
+        "Amazon Prime",
+        "Disney+"
+      ],
+      "id": 5
+    }
+  ],
+  "requests": [
+    {
+      "id": 1,
+      "providerId": 2,
+      "providerName": "John Smith",
+      "consumerId": 101,
+      "consumerName": "Alexander Richardson",
+      "consumerEmail": "alexander.richardson@example.com",
+      "platform": "Netflix",
+      "fromDate": "2026-07-02T15:00",
+      "toDate": "2026-07-02T19:00",
+      "requestedDate": "6/20/2026",
+      "status": "Pending"
+    },
+    {
+      "consumerId": 4,
+      "consumerName": "alexander richardson",
+      "consumerEmail": "alexander.richardson@example.com",
+      "providerId": 2,
+      "providerName": "John Smith",
+      "platforms": [
+        "Amazon Prime"
+      ],
+      "from": "2026-11-13T13:37",
+      "to": "2026-11-14T13:37",
+      "status": "Pending",
+      "id": 2
+    },
+    {
+      "consumerId": 3,
+      "consumerName": "Meenakshi Subhash",
+      "consumerEmail": "meenakshisubhash2006@gmail.com",
+      "providerId": 5,
+      "providerName": "malavika ",
+      "platforms": [
+        "Disney+"
+      ],
+      "from": "2026-11-14T14:08",
+      "to": "2026-11-14T23:58",
+      "status": "Accepted",
+      "id": 3
+    },
+    {
+      "providerId": "2",
+      "providerName": "John Smith",
+      "consumerId": "3",
+      "consumerName": "Meenakshi Subhash",
+      "consumerEmail": "meenakshisubhash2006@gmail.com",
+      "platforms": [
+        "Netflix",
+        "Disney Plus"
+      ],
+      "platform": "Netflix, Disney Plus",
+      "from": "2026-11-13T14:33",
+      "to": "2026-11-14T07:30",
+      "status": "Pending",
+      "id": 4
+    }
+  ]
+}
